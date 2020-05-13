@@ -1,3 +1,4 @@
+/*
 package stepDefinations;
 
 import io.restassured.RestAssured;
@@ -133,3 +134,4 @@ public class Test {
         System.out.println(response.body().toString());
     }
 }
+*/
