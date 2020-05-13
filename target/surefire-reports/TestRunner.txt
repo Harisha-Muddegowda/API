@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.483 sec <<< FAILURE!
+Verify if user is able to get pets details using GET method(Get pets details)  Time elapsed: 0.485 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<HTTP/1.1 200 O[K]> but was:<HTTP/1.1 200 O[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at stepDefinations.StepDefination.in_response_body_is(StepDefination.java:50)
+	at ✽.verify status in response body is "HTTP/1.1 200 O"(file:src/test/resources/features/petDetails.feature:16)
+

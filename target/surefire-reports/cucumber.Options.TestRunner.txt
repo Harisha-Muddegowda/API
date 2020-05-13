@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: cucumber.Options.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.631 sec <<< FAILURE!
+Verify if user is able to get pets details using GET method(Get pets details)  Time elapsed: 1.321 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<404> but was:<200>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:743)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:555)
+	at org.junit.Assert.assertEquals(Assert.java:542)
+	at stepDefinations.StepDefination.the_API_call_got_success_with_status_code(StepDefination.java:64)
+	at ✽.the API call got success with status code 200(file:src/test/resources/features/petDetails.feature:6)
+

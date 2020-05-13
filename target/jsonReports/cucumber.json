@@ -1,0 +1,419 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-23T11:27:29.197Z",
+        "before": [
+          {
+            "result": {
+              "duration": 104209291,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify if user is able to add user details using POST method",
+        "description": "",
+        "id": "add-user-details;verify-if-user-is-able-to-add-user-details-using-post-method;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2158106,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 783146314,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user has base URL \"POST\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefination.user_has_base_URL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2997434842,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls \"CreateUserAPI\" with \"POST\" http request with \"AMAZON\" \"10000\" \"20\" \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CreateUserAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"AMAZON\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"10000\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"20\"",
+                  "offset": 74
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 79
+                }
+              ],
+              "location": "StepDefination.user_calls_with_http_request_with(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2236435,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the API call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefination.the_API_call_got_success_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 426742,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify status in response body is \"HTTP/1.1 200 OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HTTP/1.1 200 OK\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefination.in_response_body_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86617860,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify name salary age and id of user",
+            "match": {
+              "location": "StepDefination.verify_name_salary_age_and_id_of_user()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddUser"
+          }
+        ]
+      }
+    ],
+    "name": "Add user details",
+    "description": "",
+    "id": "add-user-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/addUser.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-23T11:27:33.241Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4258000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify if user is able to get pets details using GET method",
+        "description": "",
+        "id": "get-pets-details;verify-if-user-is-able-to-get-pets-details-using-get-method",
+        "after": [
+          {
+            "result": {
+              "duration": 1418905,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3489694,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user has base URL \"GET\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefination.user_has_base_URL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1288991434,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls \"GetPetAPI\" with \"GET\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetPetAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefination.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:555)\r\n\tat org.junit.Assert.assertEquals(Assert.java:542)\r\n\tat stepDefinations.StepDefination.the_API_call_got_success_with_status_code(StepDefination.java:64)\r\n\tat ✽.the API call got success with status code 200(file:src/test/resources/features/petDetails.feature:6)\r\n",
+              "duration": 1679573,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "the API call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefination.the_API_call_got_success_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 460984,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "verify status in response body is \"HTTP/1.1 200 OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HTTP/1.1 200 OK\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefination.in_response_body_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 315883,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "verify pets ID type and price of pets",
+            "match": {
+              "location": "StepDefination.verify_pets_ID_type_and_price_of_pets()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-04-23T11:27:34.564Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3214045,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Verify if user is able to get pets details using GET method",
+        "description": "",
+        "id": "get-pets-details;verify-if-user-is-able-to-get-pets-details-using-get-method",
+        "after": [
+          {
+            "result": {
+              "duration": 8933325,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5023738,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user has base URL \"GET\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefination.user_has_base_URL(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 508492459,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user calls \"GetPetAPI\" with \"GET\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GetPetAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefination.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1171507,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the API call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefination.the_API_call_got_success_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1439451,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify status in response body is \"HTTP/1.1 200 OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"HTTP/1.1 200 OK\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefination.in_response_body_is(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14492525,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify pets ID type and price of pets",
+            "match": {
+              "location": "StepDefination.verify_pets_ID_type_and_price_of_pets()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Get pets details",
+    "description": "",
+    "id": "get-pets-details",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/petDetails.feature",
+    "tags": []
+  }
+]
