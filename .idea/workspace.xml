@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8301d911-9e43-4a90-845d-524fd3db782d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logging.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logging.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/aws/AWSV4AuthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/aws/AWSV4AuthScript.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/RestAssured-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/RestAssured-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baseClass/APIResources.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/baseClass/APIResources.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/baseClass/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/baseClass/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pojo/GetUserData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pojo/GetUserData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pojo/PetStore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pojo/PetStore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pojo/Pets.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pojo/Pets.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jsonReports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/jsonReports/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/aws/AWSV4Auth$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/aws/AWSV4Auth$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/aws/AWSV4Auth$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/aws/AWSV4Auth$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/aws/AWSV4Auth.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/aws/AWSV4Auth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/aws/AWSV4AuthTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber/Options/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cucumber/Options/TestRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinations/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinations/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinations/StepDefination.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinations/StepDefination.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinations/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinations/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +40,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/.jenkins/workspace/pipe/loanCalculator" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
@@ -257,22 +236,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589366588091" />
-    <state width="1322" height="159" key="GridCell.Tab.0.bottom" timestamp="1589385925742">
+    <state width="1322" height="159" key="GridCell.Tab.0.bottom" timestamp="1589386710088">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589385925742" />
-    <state width="1322" height="159" key="GridCell.Tab.0.center" timestamp="1589385925742">
+    <state width="1322" height="159" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589386710088" />
+    <state width="1322" height="159" key="GridCell.Tab.0.center" timestamp="1589386710087">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589385925742" />
-    <state width="1322" height="159" key="GridCell.Tab.0.left" timestamp="1589385925742">
+    <state width="1322" height="159" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589386710087" />
+    <state width="1322" height="159" key="GridCell.Tab.0.left" timestamp="1589386710087">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589385925742" />
-    <state width="1322" height="159" key="GridCell.Tab.0.right" timestamp="1589385925742">
+    <state width="1322" height="159" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589386710087" />
+    <state width="1322" height="159" key="GridCell.Tab.0.right" timestamp="1589386710088">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589385925742" />
+    <state width="1322" height="159" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589386710088" />
     <state width="1306" height="208" key="GridCell.Tab.1.bottom" timestamp="1587633350626">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -289,10 +268,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1306" height="208" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1587633350626" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1589385564113">
+    <state x="184" y="0" key="SettingsEditor" timestamp="1589386637765">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589385564113" />
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589386637765" />
     <state width="683" height="364" key="XDebugger.FullValuePopup" timestamp="1587546794462">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
