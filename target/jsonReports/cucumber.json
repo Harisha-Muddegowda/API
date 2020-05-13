@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-05-13T16:18:47.907Z",
+        "start_timestamp": "2020-05-13T16:36:26.305Z",
         "before": [
           {
             "result": {
-              "duration": 173569285,
+              "duration": 176764228,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 2367101,
+              "duration": 1733591,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1848143838,
+              "duration": 1998433776,
               "status": "passed"
             },
             "line": 4,
@@ -53,7 +53,7 @@
           },
           {
             "result": {
-              "duration": 8198706783,
+              "duration": 4497485436,
               "status": "passed"
             },
             "line": 5,
@@ -91,7 +91,7 @@
           },
           {
             "result": {
-              "duration": 2427027,
+              "duration": 2241255,
               "status": "passed"
             },
             "line": 6,
@@ -109,7 +109,7 @@
           },
           {
             "result": {
-              "duration": 531207,
+              "duration": 410498,
               "status": "passed"
             },
             "line": 7,
@@ -127,7 +127,7 @@
           },
           {
             "result": {
-              "duration": 95468650,
+              "duration": 105667730,
               "status": "passed"
             },
             "line": 8,
@@ -156,11 +156,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-05-13T16:18:58.289Z",
+        "start_timestamp": "2020-05-13T16:36:33.141Z",
         "before": [
           {
             "result": {
-              "duration": 3513411,
+              "duration": 3548940,
               "status": "passed"
             },
             "match": {
@@ -175,7 +175,7 @@
         "after": [
           {
             "result": {
-              "duration": 1466489,
+              "duration": 978944,
               "status": "passed"
             },
             "match": {
@@ -188,7 +188,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3539951,
+              "duration": 2733938,
               "status": "passed"
             },
             "line": 4,
@@ -206,7 +206,7 @@
           },
           {
             "result": {
-              "duration": 1631792092,
+              "duration": 1411737311,
               "status": "passed"
             },
             "line": 5,
@@ -229,7 +229,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:555)\r\n\tat org.junit.Assert.assertEquals(Assert.java:542)\r\n\tat stepDefinations.StepDefination.the_API_call_got_success_with_status_code(StepDefination.java:64)\r\n\tat ✽.the API call got success with status code 200(file:src/test/resources/features/petDetails.feature:6)\r\n",
-              "duration": 1821769,
+              "duration": 2244252,
               "status": "failed"
             },
             "line": 6,
@@ -247,7 +247,7 @@
           },
           {
             "result": {
-              "duration": 784611,
+              "duration": 436608,
               "status": "skipped"
             },
             "line": 7,
@@ -265,7 +265,7 @@
           },
           {
             "result": {
-              "duration": 479413,
+              "duration": 310762,
               "status": "skipped"
             },
             "line": 8,
@@ -283,11 +283,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-05-13T16:18:59.949Z",
+        "start_timestamp": "2020-05-13T16:36:34.579Z",
         "before": [
           {
             "result": {
-              "duration": 3356318,
+              "duration": 3011740,
               "status": "passed"
             },
             "match": {
@@ -302,7 +302,7 @@
         "after": [
           {
             "result": {
-              "duration": 8312677,
+              "duration": 6619321,
               "status": "passed"
             },
             "match": {
@@ -315,7 +315,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4824092,
+              "duration": 3041275,
               "status": "passed"
             },
             "line": 13,
@@ -333,7 +333,7 @@
           },
           {
             "result": {
-              "duration": 457924031,
+              "duration": 495135030,
               "status": "passed"
             },
             "line": 14,
@@ -355,7 +355,7 @@
           },
           {
             "result": {
-              "duration": 1229780,
+              "duration": 1198960,
               "status": "passed"
             },
             "line": 15,
@@ -373,7 +373,7 @@
           },
           {
             "result": {
-              "duration": 1264023,
+              "duration": 1338076,
               "status": "passed"
             },
             "line": 16,
@@ -391,7 +391,7 @@
           },
           {
             "result": {
-              "duration": 15226495,
+              "duration": 13800242,
               "status": "passed"
             },
             "line": 17,
