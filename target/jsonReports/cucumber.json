@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-23T11:27:29.197Z",
+        "start_timestamp": "2020-05-13T16:05:44.390Z",
         "before": [
           {
             "result": {
-              "duration": 104209291,
+              "duration": 95269607,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 2158106,
+              "duration": 3049837,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 783146314,
+              "duration": 812894151,
               "status": "passed"
             },
             "line": 4,
@@ -53,7 +53,7 @@
           },
           {
             "result": {
-              "duration": 2997434842,
+              "duration": 2732888279,
               "status": "passed"
             },
             "line": 5,
@@ -91,8 +91,9 @@
           },
           {
             "result": {
-              "duration": 2236435,
-              "status": "passed"
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c400\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:555)\r\n\tat org.junit.Assert.assertEquals(Assert.java:542)\r\n\tat stepDefinations.StepDefination.the_API_call_got_success_with_status_code(StepDefination.java:64)\r\n\tat ✽.the API call got success with status code 200(file:src/test/resources/features/addUser.feature:6)\r\n",
+              "duration": 5082204,
+              "status": "failed"
             },
             "line": 6,
             "name": "the API call got success with status code 200",
@@ -109,8 +110,8 @@
           },
           {
             "result": {
-              "duration": 426742,
-              "status": "passed"
+              "duration": 768345,
+              "status": "skipped"
             },
             "line": 7,
             "name": "verify status in response body is \"HTTP/1.1 200 OK\"",
@@ -127,8 +128,8 @@
           },
           {
             "result": {
-              "duration": 86617860,
-              "status": "passed"
+              "duration": 358704,
+              "status": "skipped"
             },
             "line": 8,
             "name": "verify name salary age and id of user",
@@ -156,11 +157,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-04-23T11:27:33.241Z",
+        "start_timestamp": "2020-05-13T16:05:48.109Z",
         "before": [
           {
             "result": {
-              "duration": 4258000,
+              "duration": 4741907,
               "status": "passed"
             },
             "match": {
@@ -175,7 +176,7 @@
         "after": [
           {
             "result": {
-              "duration": 1418905,
+              "duration": 1037159,
               "status": "passed"
             },
             "match": {
@@ -188,7 +189,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3489694,
+              "duration": 5532938,
               "status": "passed"
             },
             "line": 4,
@@ -206,7 +207,7 @@
           },
           {
             "result": {
-              "duration": 1288991434,
+              "duration": 506566029,
               "status": "passed"
             },
             "line": 5,
@@ -228,8 +229,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:555)\r\n\tat org.junit.Assert.assertEquals(Assert.java:542)\r\n\tat stepDefinations.StepDefination.the_API_call_got_success_with_status_code(StepDefination.java:64)\r\n\tat ✽.the API call got success with status code 200(file:src/test/resources/features/petDetails.feature:6)\r\n",
-              "duration": 1679573,
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c400\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:555)\r\n\tat org.junit.Assert.assertEquals(Assert.java:542)\r\n\tat stepDefinations.StepDefination.the_API_call_got_success_with_status_code(StepDefination.java:64)\r\n\tat ✽.the API call got success with status code 200(file:src/test/resources/features/petDetails.feature:6)\r\n",
+              "duration": 571443,
               "status": "failed"
             },
             "line": 6,
@@ -247,7 +248,7 @@
           },
           {
             "result": {
-              "duration": 460984,
+              "duration": 324032,
               "status": "skipped"
             },
             "line": 7,
@@ -265,7 +266,7 @@
           },
           {
             "result": {
-              "duration": 315883,
+              "duration": 302629,
               "status": "skipped"
             },
             "line": 8,
@@ -283,11 +284,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-04-23T11:27:34.564Z",
+        "start_timestamp": "2020-05-13T16:05:48.639Z",
         "before": [
           {
             "result": {
-              "duration": 3214045,
+              "duration": 2439013,
               "status": "passed"
             },
             "match": {
@@ -302,7 +303,7 @@
         "after": [
           {
             "result": {
-              "duration": 8933325,
+              "duration": 2257521,
               "status": "passed"
             },
             "match": {
@@ -315,7 +316,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5023738,
+              "duration": 2565287,
               "status": "passed"
             },
             "line": 13,
@@ -333,7 +334,7 @@
           },
           {
             "result": {
-              "duration": 508492459,
+              "duration": 457970688,
               "status": "passed"
             },
             "line": 14,
@@ -355,8 +356,9 @@
           },
           {
             "result": {
-              "duration": 1171507,
-              "status": "passed"
+              "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c400\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:555)\r\n\tat org.junit.Assert.assertEquals(Assert.java:542)\r\n\tat stepDefinations.StepDefination.the_API_call_got_success_with_status_code(StepDefination.java:64)\r\n\tat ✽.the API call got success with status code 200(file:src/test/resources/features/petDetails.feature:15)\r\n",
+              "duration": 575296,
+              "status": "failed"
             },
             "line": 15,
             "name": "the API call got success with status code 200",
@@ -373,8 +375,8 @@
           },
           {
             "result": {
-              "duration": 1439451,
-              "status": "passed"
+              "duration": 307766,
+              "status": "skipped"
             },
             "line": 16,
             "name": "verify status in response body is \"HTTP/1.1 200 OK\"",
@@ -391,8 +393,8 @@
           },
           {
             "result": {
-              "duration": 14492525,
-              "status": "passed"
+              "duration": 2180901,
+              "status": "skipped"
             },
             "line": 17,
             "name": "verify pets ID type and price of pets",

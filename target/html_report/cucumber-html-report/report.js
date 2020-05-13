@@ -98,7 +98,8 @@ formatter.match({
   "location": "StepDefination.the_API_call_got_success_with_status_code(Integer)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c400\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:555)\r\n\tat org.junit.Assert.assertEquals(Assert.java:542)\r\n\tat stepDefinations.StepDefination.the_API_call_got_success_with_status_code(StepDefination.java:64)\r\n\tat ✽.the API call got success with status code 200(file:src/test/resources/features/addUser.feature:6)\r\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "verify status in response body is \"HTTP/1.1 200 OK\"",
@@ -108,7 +109,7 @@ formatter.match({
   "location": "StepDefination.in_response_body_is(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "verify name salary age and id of user",
@@ -118,7 +119,7 @@ formatter.match({
   "location": "StepDefination.verify_name_salary_age_and_id_of_user()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
   "status": "passed"
@@ -170,7 +171,7 @@ formatter.match({
   "location": "StepDefination.the_API_call_got_success_with_status_code(Integer)"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError: expected:\u003c404\u003e but was:\u003c200\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:555)\r\n\tat org.junit.Assert.assertEquals(Assert.java:542)\r\n\tat stepDefinations.StepDefination.the_API_call_got_success_with_status_code(StepDefination.java:64)\r\n\tat ✽.the API call got success with status code 200(file:src/test/resources/features/petDetails.feature:6)\r\n",
+  "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c400\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:555)\r\n\tat org.junit.Assert.assertEquals(Assert.java:542)\r\n\tat stepDefinations.StepDefination.the_API_call_got_success_with_status_code(StepDefination.java:64)\r\n\tat ✽.the API call got success with status code 200(file:src/test/resources/features/petDetails.feature:6)\r\n",
   "status": "failed"
 });
 formatter.step({
@@ -237,7 +238,8 @@ formatter.match({
   "location": "StepDefination.the_API_call_got_success_with_status_code(Integer)"
 });
 formatter.result({
-  "status": "passed"
+  "error_message": "java.lang.AssertionError: expected:\u003c200\u003e but was:\u003c400\u003e\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.failNotEquals(Assert.java:743)\r\n\tat org.junit.Assert.assertEquals(Assert.java:118)\r\n\tat org.junit.Assert.assertEquals(Assert.java:555)\r\n\tat org.junit.Assert.assertEquals(Assert.java:542)\r\n\tat stepDefinations.StepDefination.the_API_call_got_success_with_status_code(StepDefination.java:64)\r\n\tat ✽.the API call got success with status code 200(file:src/test/resources/features/petDetails.feature:15)\r\n",
+  "status": "failed"
 });
 formatter.step({
   "name": "verify status in response body is \"HTTP/1.1 200 OK\"",
@@ -247,7 +249,7 @@ formatter.match({
   "location": "StepDefination.in_response_body_is(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "verify pets ID type and price of pets",
@@ -257,7 +259,7 @@ formatter.match({
   "location": "StepDefination.verify_pets_ID_type_and_price_of_pets()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.after({
   "status": "passed"

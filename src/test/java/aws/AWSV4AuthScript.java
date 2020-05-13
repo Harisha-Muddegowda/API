@@ -14,7 +14,7 @@ import java.util.TreeMap;
  * @date 19th January, 2016
  * @Github: https://github.com/javaquery/Examples
  */
-public class AWSV4AuthTest {
+public class AWSV4AuthScript {
     public static void main(String[] args) {
         RequestSpecification restAssuredRequest;
         restAssuredRequest = RestAssured.given();
