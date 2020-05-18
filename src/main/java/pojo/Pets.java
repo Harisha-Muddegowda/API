@@ -4,6 +4,7 @@ public class Pets {
     private String price;
     private String id;
     private String type;
+    //private String type;
 
     public String getPrice ()
     {
