@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8301d911-9e43-4a90-845d-524fd3db782d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logging.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logging.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/petDetails.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/petDetails.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/RestAssured-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/RestAssured-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/jsonReports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/jsonReports/cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinations/Test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +37,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/.jenkins/workspace/pipe/loanCalculator" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.jenkins/workspace/pipe" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -237,10 +231,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="436" height="438" key="DebuggerActiveHint/0.0.1366.728@0.0.1366.728" timestamp="1587633315185" />
-    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1589366588091">
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1589388577600">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589366588091" />
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589388577600" />
     <state width="1322" height="159" key="GridCell.Tab.0.bottom" timestamp="1589387817388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
